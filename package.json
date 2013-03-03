@@ -2,6 +2,7 @@
   "author": "Aeron Glemann (http://www.electricprism.com/aeron)",
   "devDependencies": {
     "grunt": "~0.4.0",
+    "grunt-cli": "~0.1.6",
     "grunt-contrib-concat": "~0.1.3",
     "grunt-contrib-jshint": "~0.2.0",
     "grunt-contrib-qunit": "~0.2.0",
