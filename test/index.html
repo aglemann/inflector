@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>QUnit Test Suite</title>
+	<link rel="stylesheet" href="../lib/qunit/qunit/qunit.css">
+	<script src="../lib/qunit/qunit/qunit.js"></script>
+  <script>
+    QUnit.config.autostart = false;
+    QUnit.config.testTimeout = 5000;
+    var require = {
+      baseUrl: '../',
+      callback: function() {
+        QUnit.load();
+        QUnit.start();
+      },
+      deps: [
+        'test/main'
+      ],
+      paths: {
+        'underscore': 'lib/underscore/underscore'
+      },
+      shim: {
+        'underscore': { exports: '_' }
+      },
+      urlArgs: +new Date(),
+      waitSeconds: 0
+    }
+  </script>
+  <script src="../lib/requirejs/require.js"></script>
+</head>
+<body>
+	<div id="qunit"></div>
+	<div id="qunit-fixture">test markup</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+[submodule "lib/qunit"]
+	path = lib/qunit
+	url = https://github.com/jquery/qunit
+[submodule "lib/requirejs"]
+	path = lib/requirejs
+	url = https://github.com/jrburke/requirejs.git
+[submodule "lib/underscore"]
+	path = lib/underscore
+	url = https://github.com/documentcloud/underscore.git
