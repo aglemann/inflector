@@ -1,4 +1,4 @@
-/*! Inflector - v0.0.1 - 2013-03-03
+/*! Inflector - v0.0.1 - 2013-03-04
 * Copyright (c) 2013 Aeron Glemann (http://www.electricprism.com/aeron); Licensed MIT */
 
 //     Underscore.js 1.4.4
